@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/ui/hero";
+import Brand from "@/components/Brands";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <Brand />
       </main>
     </div>
   );

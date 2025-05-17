@@ -102,7 +102,7 @@ const Header = () => {
             <Button variant="ghost">Sign In</Button>
             <Button
               variant="ghost"
-              className=" text-white bg-indigo-600 hover:bg-indigo-700"
+              className=" text-white bg-[#3176f7] hover:bg-[#3176f7]"
             >
               Free Trial
             </Button>
