@@ -136,4 +136,11 @@
     2xl:max-w-screen-xl
     ;
   }
+
+  .section {
+    @apply py-8
+    md:py-16;
+    ;
+  }
 }
+

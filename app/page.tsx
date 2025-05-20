@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/ui/hero";
 import Brand from "@/components/Brands";
+import Features from "@/components/Features";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <main>
         <Hero />
         <Brand />
+        <Features />
       </main>
     </div>
   );

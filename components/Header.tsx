@@ -19,7 +19,7 @@ import { cn } from "@/lib/utils";
 
 const Header = () => {
   return (
-    <header className="h-16 grid grid-cols-1 items-center md:h-20 lg:h-24">
+    <header className="fixed w-full backdrop-blur-sm z-20 h-16 grid grid-cols-1 items-center md:h-20 lg:h-24">
       <div className="container flex justify-between lg:gap-4 items-center h-full">
         <Logo variant="default" />
         <Popover>

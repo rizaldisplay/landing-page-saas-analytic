@@ -18,15 +18,14 @@ import avatar2 from "./assets/avatar-2.jpg";
 import avatar3 from "./assets/avatar-3.jpg";
 import ctaBanner from "./assets/cta-banner.png";
 
+
+const brands = [brand1, brand2, brand3, brand4, brand5];
+
 export {
     favicon,
     logo,
     heroBanner,
-    brand1,
-    brand2,
-    brand3,
-    brand4,
-    brand5,
+    brands,
     feature1,
     feature2,
     processBanner,
