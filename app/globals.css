@@ -142,5 +142,49 @@
     md:py-16;
     ;
   }
+
+  .section-head {
+    @apply pb-8
+    text-center
+    
+    /* Responsive for MD screen */
+    md:pb-16
+
+    /* Responsive for LG screen */
+    lg:max-w-screen-sm
+    lg:mx-auto;
+  }
+
+  .section-subtitle {
+    @apply text-primary
+    text-sm
+    font-medium
+    uppercase;
+  }
+
+  .section-title {
+    @apply text-foreground
+    text-3xl
+    font-semibold
+    leading-snug
+    py-3
+    
+    /* Responsive for md screen */
+    md:text-[40px];
+  }
+
+  .section-text {
+    @apply text-muted-foreground
+
+    /* Responsive for md screen */
+    md:text-xl
+    ;
+  }
+
+  .img-cover {
+    @apply w-full
+    h-full
+    object-cover
+  }
 }
 

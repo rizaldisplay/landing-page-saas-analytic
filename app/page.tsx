@@ -2,6 +2,12 @@ import Header from "@/components/Header";
 import Hero from "@/components/ui/hero";
 import Brand from "@/components/Brands";
 import Features from "@/components/Features";
+import Process from "@/components/Process";
+import Overview from "@/components/Overview";
+import Review from "@/components/Review";
+import Blog from "@/components/Blog";
+import Cta from "@/components/ui/Cta";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -11,7 +17,14 @@ export default function Home() {
         <Hero />
         <Brand />
         <Features />
+        <Process />
+        <Overview />
+        <Review />
+        <Blog />
+        <Cta />
       </main>
+
+      <Footer />
     </div>
   );
 }
