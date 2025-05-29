@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from 'framer-motion' // Perbaiki import motion
 import { Button } from './ui/button'
 import { ArrowRight } from 'lucide-react'
-import Image from 'next/image'
+import Image from 'next/image' 
 
 import { featureData } from '@/constants'
 import FeatureCard from './FeatureCard'
@@ -52,8 +52,8 @@ const Features = () => {
                                         {desc}
                                     </motion.p>
                                     <motion.div variants={variants.fadeInUp}>
-                                        <Button variant="link" className="p-0 h-auto mt-3">
-                                            Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                                        <Button variant="ghost" className="p-2 h-auto mt-3 group">
+                                            Learn More <ArrowRight className="ml-1 h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />
                                         </Button>
                                     </motion.div>
                                 </div>
