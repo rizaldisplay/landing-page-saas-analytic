@@ -3,6 +3,8 @@
  * @license Apache-2.0
  */
 
+import { JSX } from "react";
+
 type MenuItem = {
   href: string;
   label: string;

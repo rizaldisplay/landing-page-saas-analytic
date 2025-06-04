@@ -45,17 +45,6 @@ import {
   avatar1,
   avatar2,
   avatar3,
-  favicon,
-  logo,
-  heroBanner,
-  brand1,
-  brand2,
-  brand3,
-  brand4,
-  brand5,
-  processBanner,
-  overviewBanner,
-  ctaBanner,
 } from '@/public';
 
 // Header

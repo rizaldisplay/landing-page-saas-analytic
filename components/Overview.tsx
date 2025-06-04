@@ -10,7 +10,6 @@ import * as variants from '@/lib/motionVariants'
 import Image from 'next/image'
 import { Dialog, DialogTitle, DialogContent } from "@/components/ui/dialog";
 import { DialogTrigger } from "@radix-ui/react-dialog";
-import { CirclePlay } from "lucide-react";
 import ReactPlayer from "react-player/youtube";
 
 const Overview = () => {

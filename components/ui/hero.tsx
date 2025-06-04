@@ -9,7 +9,7 @@ import { heroData } from "@/constants";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogTitle, DialogContent } from "@/components/ui/dialog";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
-import { motion, Variants, useScroll, useSpring, useTransform } from "motion/react";
+import { motion, Variants } from "motion/react";
 import ReactPlayer from "react-player";
 
 // Animation variants for motion components
@@ -29,17 +29,6 @@ import { DialogTrigger } from "@radix-ui/react-dialog";
 
 const Hero = () => {
   const heroBannerRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: heroBannerRef,
-    offset: ["start 1080px", "50% start"],
-  });
-
-  const scrollYTransform = useTransform(scrollYProgress, [0, 1], [0.85, 1.15]);
-  const scale = useSpring(scrollYTransform, {
-    stiffness: 300,
-    damping: 30,
-    mass: 0.001,
-  });
 
   return (
     <section className="relative py-12 md:py-20 lg:py-28 overflow-hidden">

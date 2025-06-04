@@ -5,7 +5,7 @@ import * as variants from '@/lib/motionVariants'
 import { blogData } from '@/constants'
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar'
+import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 import Image from 'next/image'
 
 const Blog = () => {
