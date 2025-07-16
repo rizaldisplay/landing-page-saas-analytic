@@ -8,7 +8,7 @@ import Review from "@/components/Review";
 import Blog from "@/components/Blog";
 import Cta from "@/components/ui/Cta";
 import Footer from "@/components/Footer";
-import Tawkto from "@/app/_app";
+import Tawkto from "@/components/TawkTo";
 
 export default function Home() {
   return (
